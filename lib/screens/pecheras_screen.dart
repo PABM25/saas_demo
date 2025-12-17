@@ -118,7 +118,7 @@ class _PecherasScreenState extends State<PecherasScreen> {
                       child: ConstrainedBox(
                         constraints: const BoxConstraints(minWidth: 600), // Asegura un ancho mínimo
                         child: DataTable(
-                          headingRowColor: MaterialStateProperty.all(Colors.grey[200]),
+                          headingRowColor: WidgetStateProperty.all(Colors.grey[200]),
                           columns: const [
                             DataColumn(label: Text("UID")),
                             DataColumn(label: Text("Planta")),

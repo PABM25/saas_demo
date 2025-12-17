@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import '../main.dart'; // Importamos para leer el color corporativo
+// Importamos para leer el color corporativo
 
 class SideMenu extends StatelessWidget {
   final Function(int) onMenuClick;
